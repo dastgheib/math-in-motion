@@ -1,0 +1,7 @@
+---
+title: "Signals & Systems"
+---
+# Signals & Systems
+A growing collection covering continuous-time signals, LTI systems, convolution, transforms, and sampling.
+
+Animations will be added here as the course develops.

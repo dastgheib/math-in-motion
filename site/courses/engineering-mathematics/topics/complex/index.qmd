@@ -1,0 +1,7 @@
+---
+title: ""
+page-layout: full
+---
+<div class="mm-breadcrumb"><a href="../../../..\index.qmd">Home</a><span> / </span><a href="../../../..\gallery.qmd">Gallery</a><span> / </span><span>Complex Analysis</span></div>
+<div class="mm-topic-hero"><div class="mm-section-kicker">LECTURES 17–28</div><h1>Complex Analysis</h1><h2>From numbers to geometry.</h2><p>Explore the complex plane, analytic functions, contour integrals, residues, and conformal mappings through motion.</p></div>
+<div class="mm-section-header"><div class="mm-section-kicker">VISUALIZATIONS</div><h2>Explore the collection</h2></div>

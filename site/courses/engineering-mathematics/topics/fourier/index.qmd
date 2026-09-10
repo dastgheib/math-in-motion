@@ -1,0 +1,15 @@
+---
+title: ""
+page-layout: full
+listing:
+  contents: "example/index.qmd"
+  type: grid
+  grid-columns: 3
+  image-height: 220px
+  page-size: 8
+  filter-ui: false
+  sort-ui: false
+---
+<div class="mm-breadcrumb"><a href="../../../..\index.qmd">Home</a><span> / </span><a href="../../../..\gallery.qmd">Gallery</a><span> / </span><span>Fourier Analysis</span></div>
+<div class="mm-topic-hero"><div class="mm-section-kicker">LECTURES 01–08</div><h1>Fourier Analysis</h1><h2>Seeing signals in frequency.</h2><p>Fourier analysis gives us a language for understanding periodic structure, frequency content, convolution, and filtering.</p></div>
+<div class="mm-section-header"><div class="mm-section-kicker">VISUALIZATIONS</div><h2>Explore the collection</h2></div>

@@ -1,0 +1,11 @@
+---
+title: "Lectures"
+---
+# Lecture Map
+The gallery follows the 28-lecture structure of Engineering Mathematics.
+## Fourier Analysis
+**Lectures 01–08** · Periodic functions → Fourier series → transforms → filtering.
+## Partial Differential Equations
+**Lectures 09–16** · Waves → separation of variables → heat equation → membranes.
+## Complex Analysis
+**Lectures 17–28** · Complex numbers → analytic functions → series → residues.

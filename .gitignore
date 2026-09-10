@@ -1,0 +1,17 @@
+# Quarto
+site/.quarto/
+site/_site/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Manim temporary output
+.media/
+media/
+
+# Operating-system files
+.DS_Store
+Thumbs.db

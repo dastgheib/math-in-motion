@@ -1,0 +1,7 @@
+---
+title: ""
+page-layout: full
+---
+<div class="mm-breadcrumb"><a href="../../../..\index.qmd">Home</a><span> / </span><a href="../../../..\gallery.qmd">Gallery</a><span> / </span><span>Partial Differential Equations</span></div>
+<div class="mm-topic-hero"><div class="mm-section-kicker">LECTURES 09–16</div><h1>Partial Differential Equations</h1><h2>From equations to motion.</h2><p>Explore waves, diffusion, eigenmodes, membranes, and the physical behavior represented by partial differential equations.</p></div>
+<div class="mm-section-header"><div class="mm-section-kicker">VISUALIZATIONS</div><h2>Explore the collection</h2></div>

@@ -1,0 +1,85 @@
+---
+title: ""
+title-block-style: none
+description: "A short visual explanation of a mathematical idea using Manim."
+course: "Engineering Mathematics"
+topics:
+  - Fourier Series
+  - Convergence
+authors:
+  - "Example Author"
+image: "thumbnail.webp"
+image-alt: "Preview image for the example mathematical animation"
+categories:
+  - Example
+  - Engineering Mathematics
+lecture: "Example Lecture"
+draft: false
+page-layout: full
+---
+
+<div class="mm-project-nav">
+  <a href="../index.qmd">← Fourier Analysis</a>
+</div>
+
+<div class="mm-project-header">
+  <div class="mm-eyebrow">Example Lecture · Engineering Mathematics</div>
+  <h1>The Example Animation</h1>
+  <p class="mm-authors">Student names will be added later.</p>
+</div>
+
+<div class="mm-video-wrap">
+  <video controls preload="metadata" poster="thumbnail.webp">
+    <source src="animation.mp4" type="video/mp4">
+    Your browser does not support HTML video.
+  </video>
+</div>
+
+<div class="mm-info-grid">
+  <div class="mm-info-card"><div class="mm-info-label">Concept</div><p>Example mathematical idea</p></div>
+  <div class="mm-info-card"><div class="mm-info-label">Course</div><p>Engineering Mathematics · 25735</p></div>
+  <div class="mm-info-card"><div class="mm-info-label">Tool</div><p>Python · Manim Community Edition</p></div>
+</div>
+
+<div class="mm-project-content">
+
+## The Mathematical Idea
+
+Explain the concept in two or three paragraphs.
+
+Include the central equation when appropriate:
+
+$$
+f(x) = \text{mathematical expression}
+$$
+
+## What to Notice
+
+Describe what the viewer should observe in the animation.
+
+<div class="mm-highlight">
+<strong>Key takeaway:</strong>
+Summarize the central mathematical insight here.
+</div>
+
+## Why It Matters
+
+Explain the connection to engineering mathematics or a later course topic.
+
+## Source Code
+
+[View the Manim source code on GitHub](https://github.com/OWNER/math-in-motion/tree/main/site/courses/engineering-mathematics/topics/fourier/example)
+
+## Credits
+
+Add the student name here later.
+
+## References
+
+Add textbooks, lecture notes, or other sources here.
+
+## AI Usage
+
+Describe any use of AI tools truthfully.
+
+</div>

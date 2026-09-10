@@ -1,0 +1,27 @@
+.mm-project-header .mm-eyebrow {
+  color: var(--mm-teal);
+}
+
+.mm-project-header h1 {
+  margin: 0.65rem 0 0;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+}
+
+.mm-authors {
+  margin: 0.65rem 0 0;
+  color: var(--mm-slate);
+  font-size: 1rem;
+}
+
+.mm-info-label {
+  margin-bottom: 0.35rem;
+  color: var(--mm-slate);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mm-info-card p {
+  margin: 0;
+}

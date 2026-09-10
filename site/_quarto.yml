@@ -1,0 +1,37 @@
+project:
+  type: website
+website:
+  title: "Math in Motion"
+  description: "Visual explanations for engineering mathematics and systems."
+  navbar:
+    pinned: true
+    background: transparent
+    foreground: "#16232B"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: gallery.qmd
+        text: Gallery
+      - href: courses/index.qmd
+        text: Courses
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/OWNER/math-in-motion
+        aria-label: GitHub
+  page-footer:
+    left: "Math in Motion · Engineering Mathematics · Course 25735"
+    right: "Student-created educational visualizations"
+format:
+  html:
+    theme: none
+    css:
+      - styles.css
+      - project.css
+    toc: false
+    page-navigation: true
+    smooth-scroll: true
+    link-external-newwindow: true
+execute:
+  freeze: auto

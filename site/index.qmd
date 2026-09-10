@@ -1,0 +1,15 @@
+---
+title: ""
+page-layout: full
+---
+<div class="mm-hero"><div class="mm-hero-inner"><div class="mm-eyebrow">Engineering Mathematics</div>
+# Math in Motion
+## Visual explanations for engineering mathematics.
+A student-created collection of short mathematical visualizations built with Python and Manim.
+<div class="mm-hero-actions"><a class="mm-button mm-button-primary" href="gallery.qmd">Browse all animations →</a></div>
+</div></div>
+<div class="mm-section"><div class="mm-section-header"><div class="mm-section-kicker">Explore Topics</div>
+## Choose a mathematical topic
+Start with one of the available Engineering Mathematics topics.</div>
+<div class="mm-feature-grid"><a href="courses/engineering-mathematics/topics/fourier/index.qmd" class="mm-domain-card"><span class="mm-card-meta">Topic · Lectures 01–08</span><h3>Fourier Analysis</h3><p>Periodic signals, harmonics, transforms, convolution, and filtering. <span>Explore →</span></p></a><a href="courses/engineering-mathematics/topics/pde/index.qmd" class="mm-domain-card"><span class="mm-card-meta">Topic · Lectures 09–16</span><h3>Partial Differential Equations</h3><p>Waves, diffusion, eigenmodes, membranes, and Bessel functions. <span>Explore →</span></p></a><a href="courses/engineering-mathematics/topics/complex/index.qmd" class="mm-domain-card mm-domain-complex"><span class="mm-card-meta">Topic · Lectures 17–28</span><h3>Complex Analysis</h3><p>Complex geometry, analytic functions, contour integrals, residues, and conformal mapping. <span>Explore →</span></p></a></div>
+</div></div>

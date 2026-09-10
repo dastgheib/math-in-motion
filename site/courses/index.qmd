@@ -1,0 +1,8 @@
+---
+title: "Courses"
+---
+# Explore by Course
+Choose a course to browse its mathematical visualizations.
+
+- [Engineering Mathematics](engineering-mathematics/index.qmd)
+- [Signals & Systems](signals-and-systems/index.qmd)

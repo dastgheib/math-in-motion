@@ -1,0 +1,26 @@
+---
+title: "About Math in Motion"
+---
+
+# Math in Motion
+
+**Math in Motion** is the student visualization initiative of Engineering Mathematics (25735).
+
+Students transform selected mathematical ideas from the course into short visual explanations using Python and Manim.
+
+> **Make mathematical structure visible.**
+
+Each contribution connects:
+
+- a mathematical concept;
+- a visual representation;
+- an explanation;
+- reproducible source code.
+
+## Technology
+
+Python · Manim Community Edition · Quarto · GitHub Pages
+
+## Student authorship
+
+Every animation credits its student creators and links to its underlying source code. The gallery is curated for mathematical correctness, pedagogical clarity, and technical quality.
