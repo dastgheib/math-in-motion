@@ -93,6 +93,18 @@ h1, h2, h3 {
   color: var(--mm-abyss) !important;
 }
 
+.mm-button-ghost {
+  background: transparent;
+  color: #d7e5e8 !important;
+  border: 1px solid rgba(215, 229, 232, 0.28);
+}
+
+.mm-button-ghost:hover {
+  background: rgba(215, 229, 232, 0.08);
+  border-color: rgba(215, 229, 232, 0.55);
+  color: #fff !important;
+}
+
 .mm-section {
   max-width: var(--mm-content);
   margin: auto;
@@ -354,4 +366,103 @@ h1, h2, h3 {
 
 .mm-project-content p {
   margin: 0 0 1rem;
+}
+
+/* =========================================================
+   Full-bleed hero with live canvas-2D animation
+   ========================================================= */
+
+html, body { overflow-x: hidden; }
+
+.mm-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+
+  min-height: clamp(520px, 70vh, 780px);
+  display: flex;
+  align-items: center;
+
+  padding: clamp(5rem, 10vw, 9rem) 1.5rem;
+  background: var(--mm-abyss);
+  color: #fff;
+}
+
+/* --- Animated canvas ------------------------------------- */
+
+.mm-hero-canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  z-index: -2;
+  pointer-events: none;
+  /* No background: the hero's --mm-abyss shows through, so the
+     canvas blends with the rest of the page automatically. */
+}
+
+/* --- Readability gradient -------------------------------- */
+
+.mm-hero-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(90deg,
+      rgba(8, 46, 54, 0.92) 0%,
+      rgba(8, 46, 54, 0.72) 28%,
+      rgba(8, 46, 54, 0.10) 58%,
+      rgba(8, 46, 54, 0.00) 78%),
+    linear-gradient(180deg,
+      rgba(8, 46, 54, 0.35) 0%,
+      rgba(8, 46, 54, 0.00) 30%,
+      rgba(8, 46, 54, 0.00) 70%,
+      rgba(8, 46, 54, 0.45) 100%);
+}
+
+/* --- Text stack ------------------------------------------ */
+
+.mm-hero-inner {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  max-width: var(--mm-content);
+  margin: auto;
+}
+
+.mm-hero-inner p {
+  color: #d7e5e8;
+  max-width: 46ch;
+}
+
+/* --- Mobile ---------------------------------------------- */
+
+@media (max-width: 900px) {
+  .mm-hero {
+    min-height: 0;
+    padding: clamp(3.5rem, 12vw, 6rem) 1.25rem;
+  }
+
+  .mm-hero-overlay {
+    background:
+      linear-gradient(180deg,
+        rgba(8, 46, 54, 0.88) 0%,
+        rgba(8, 46, 54, 0.68) 45%,
+        rgba(8, 46, 54, 0.88) 100%);
+  }
+}
+
+/* --- Reduced motion: keep the still frame, drop the loop --- */
+
+@media (prefers-reduced-motion: reduce) {
+  /* The JS already renders a single static frame in this case.
+     Nothing to hide — just make sure nothing animates. */
+  .mm-hero-canvas { animation: none !important; }
 }
