@@ -383,13 +383,14 @@ html, body { overflow-x: hidden; }
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
 
-  min-height: clamp(520px, 70vh, 780px);
+  min-height: clamp(460px, 55vh, 760px);
   display: flex;
   align-items: center;
 
-  padding: clamp(5rem, 10vw, 9rem) 1.5rem;
+  padding: clamp(3rem, 5vw, 4.5rem) 1.5rem;
   background: var(--mm-abyss);
   color: #fff;
+  align-items: center;
 }
 
 /* --- Animated canvas ------------------------------------- */
@@ -465,4 +466,20 @@ html, body { overflow-x: hidden; }
   /* The JS already renders a single static frame in this case.
      Nothing to hide — just make sure nothing animates. */
   .mm-hero-canvas { animation: none !important; }
+}
+
+@font-face {
+  font-family: "MyBismillah";
+  src: url("assets/Besmellah.ttf")  format("truetype");
+  font-display: swap;
+}
+
+.bismillah-banner {
+  font-family: "MyBismillah", serif;
+  font-size: clamp(5.5rem, 7vw, 7.5rem);;          
+  text-align: center;
+  color: #F5F5F0;         
+  line-height: 1.05;                      /* was 1.4  */
+  margin: 0 0 1.25rem 0;                  /* was 1.5rem 0 2rem 0 */
+  padding: 0;                             /* was 1rem 0 */
 }
